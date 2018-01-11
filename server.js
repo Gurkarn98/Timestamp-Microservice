@@ -30,11 +30,6 @@ app.get("/:time", function (req, res) {
   }
 });
 
-app.post("/", function (request, response) {
-  
-  response.sendStatus(200);
-});
-
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
