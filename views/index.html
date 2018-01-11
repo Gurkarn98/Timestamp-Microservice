@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timestamp Microservice</title>
+    <meta name="description" content="Timestamp Microservice">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" 
+          crossorigin="anonymous">
+    <link rel="icon" 
+      type="image/png" 
+      href="https://cdn.glitch.com/0bd4b58c-e97f-4b46-8760-a47e7374731d%2Fclock.png?1515680431412">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body class="container">
+    <header>
+      <h1 class="text-center">
+        Timestamp Microservice
+      </h1>
+    </header>
+
+    <main>
+      <h4>Functionality:</h4>
+      <ol>
+        <li>You can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+        <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+        <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+      </ol>
+      <br>
+      <h4>Example Usage:</h4>
+      <ol>
+        <a href="https://timestampms-gurkarn98.glitch.me/December%2015,%202015">https://timestampms-gurkarn98.glitch.me/December%2015,%202015</a>
+        <br>
+        <a href="https://timestampms-gurkarn98.glitch.me/1450137600">https://timestampms-gurkarn98.glitch.me/1450137600</a>
+      </ol>
+      <br>
+      <h4>Example Output:</h4>
+      <ol>
+        <p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+      </ol>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" 
+            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" 
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
