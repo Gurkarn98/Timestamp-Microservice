@@ -1,0 +1,28 @@
+{
+  "name": "Timestamp-Microservice",
+  "version": "0.0.1",
+  "description": "Timestamp Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "time-stamp": "^2.0.0",
+    "moment": "^2.20.1",
+    "dateformat": "^3.0.2",
+    "serve-favicon": "^2.4.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
